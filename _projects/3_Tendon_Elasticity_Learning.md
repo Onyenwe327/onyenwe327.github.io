@@ -50,7 +50,7 @@ We built a custom MuJoCo environment:
 - 500 episodes per run
 - 20+ random seeds
 
-The agent receives reward proportional to forward velocity: reward = 1000 × forward_velocity
+The agent receives reward proportional to forward velocity: `reward = 1000 × forward_velocity`
 
 Additional smoothness penalties are applied:
 
@@ -121,13 +121,6 @@ To understand coordination, we analyzed:
 - Dynamic Time Warping (DTW)
 - Occupancy entropy
 
-<div class="text-center">
-  <img src="/assets/gif/1.gif"
-       alt="Angle–angle trajectories over final 5 seconds"
-       class="img-fluid rounded"
-       style="max-width: 900px;">
-  <p class="caption">Angle–angle trajectories over final 5 seconds</p>
-</div>
 ### Observations
 
 Low stiffness:
@@ -149,9 +142,7 @@ Dynamic stiffness:
 Constant stiffness → higher eccentricity  
 Dynamic stiffness → larger ellipse area  
 
-This suggests:
-
-Dynamic adaptation improves joint coordination.
+This suggests dynamic adaptation improves joint coordination.
 
 ---
 
@@ -159,17 +150,14 @@ Dynamic adaptation improves joint coordination.
 
 1. Extremely stiff or compliant systems underperform.
 2. Dynamic stiffness schedules dominate static configurations.
-3. Mechanical adaptivity improves both:
-   - Learning speed
-   - Final locomotion quality
+3. Mechanical adaptivity improves both learning speed and final locomotion quality.
 4. Morphology–control co-adaptation matters.
 
 ---
 
 # Technical Stack
 
-- MuJoCo
-- Stable-Baselines3 (PPO)
+- MuJoCo + Stable-Baselines3 (PPO)
 - Custom stiffness scheduler
 - Multi-seed training aggregation
 - DTW & entropy-based gait analysis
@@ -181,11 +169,6 @@ Dynamic adaptation improves joint coordination.
 
 Learning is not only shaped by reward and policy.
 
-Mechanical properties influence:
+Mechanical properties influence exploration landscape, stability, convergence path, and variance across learners.
 
-- Exploration landscape
-- Stability
-- Convergence path
-- Variance across learners
-
-Mechanical design and learning dynamics are inseparable.
+**Mechanical design and learning dynamics are inseparable.**
