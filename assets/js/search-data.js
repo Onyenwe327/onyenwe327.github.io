@@ -432,19 +432,19 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-game-ai-street-fighter-ii",
           title: 'Game AI — Street Fighter II',
-          description: "PPO-based RL agent achieving 96% win rate",
+          description: "PPO and Recurrent PPO agents for complex fighting game control",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_street_fighter/";
-            },},{id: "projects-parallelized-q-learning-amp-dqn",
-          title: 'Parallelized Q-Learning &amp;amp; DQN',
-          description: "Parallel reinforcement learning with lock-free and CUDA-accelerated replay buffers achieving 3× training speedup",
+            },},{id: "projects-parallelization-of-q-learning-amp-dqn",
+          title: 'Parallelization of Q-Learning &amp;amp; DQN',
+          description: "Synchronization strategies and asynchronous environment parallelization for reinforcement learning",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_dqn_parallel/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+            },},{id: "projects-aim-iv-tendon-elasticity-amp-learning",
+          title: 'Aim IV — Tendon Elasticity &amp;amp; Learning',
+          description: "How tendon stiffness shapes learning dynamics in overdetermined tendon-driven systems",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
+              window.location.href = "/projects/3_Tendon_Elasticity_Learning/";
             },},{id: "projects-project-4",
           title: 'project 4',
           description: "another without an image",
