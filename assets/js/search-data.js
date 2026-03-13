@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "CV",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
+          description: "This is a cv of Jiajin. You can also download a pdf version by pressing the download icon.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
@@ -431,11 +431,11 @@ ninja.data = [{
           description: "How tendon stiffness shapes learning dynamics in overdetermined tendon-driven systems",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_Tendon_Elasticity_Learning/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
+            },},{id: "projects-morphology-control-co-design-via-nested-rl",
+          title: 'Morphology–Control Co-Design via Nested RL',
+          description: "Optimizing robot body and brain jointly using evolutionary outer-loops and PPO inner-loop",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
+              window.location.href = "/projects/4_rl_optimization/";
             },},{id: "projects-project-5",
           title: 'project 5',
           description: "a project with a background image",
