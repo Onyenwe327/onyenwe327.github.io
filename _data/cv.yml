@@ -1,23 +1,13 @@
 cv:
   name: Jiajin Zhang
-  label: Reinforcement Learning Researcher
   email: jjzh0103@gmail.com
   location: Los Angeles, CA
-  image: ""
-  summary: Reinforcement learning researcher specializing in robotic locomotion, morphology-control co-optimization, and game AI. MS in Computer Engineering from USC.
 
   social_networks:
     - network: GitHub
       username: Onyenwe327
     - network: LinkedIn
       username: jiajinzhang
-
-  address:
-    street:
-    city: Los Angeles
-    region: California
-    postalCode: "90007"
-    countryCode: US
 
   sections:
     Education:

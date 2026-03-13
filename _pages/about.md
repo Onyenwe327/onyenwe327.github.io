@@ -31,3 +31,6 @@ I am a Master's student in Computer Engineering at the University of Southern Ca
 My research focuses on applying RL to robotic locomotion and game AI. I have experience with PPO-based agent training in MuJoCo environments, and have developed game-playing agents achieving 96% win rate in Street Fighter II using RL. 
 
 I am broadly interested in deep RL, reward shaping, curriculum learning, and the intersection of game AI and robotics.
+
+All models are wrong, but some are useful.
+— George Box
