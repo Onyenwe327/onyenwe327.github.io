@@ -451,9 +451,9 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "projects-game-ai-street-fighter-ii",
+          title: 'Game AI — Street Fighter II',
+          description: "PPO-based RL agent achieving 96% win rate",
           section: "Projects",handler: () => {
               window.location.href = "/al-folio/projects/1_project/";
             },},{id: "projects-project-2",

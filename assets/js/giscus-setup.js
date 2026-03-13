@@ -18,7 +18,7 @@ function determineGiscusTheme() {
 
   let giscusAttributes = {
     src: "https://giscus.app/client.js",
-    "data-repo": "Onyenwe327/jiajin_zhang_personal_site",
+    "data-repo": "Onyenwe327/onyenwe327.github.io",
     "data-repo-id": "",
     "data-category": "Comments",
     "data-category-id": "",
