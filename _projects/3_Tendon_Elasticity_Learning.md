@@ -122,7 +122,7 @@ To understand coordination, we analyzed:
 - Occupancy entropy
 
 <div class="text-center">
-  <img src="/assets/img/aim4/angle_phase_plot.gif"
+  <img src="/assets/gif/1.gif"
        alt="Angle–angle trajectories over final 5 seconds"
        class="img-fluid rounded"
        style="max-width: 900px;">

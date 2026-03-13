@@ -1,7 +1,7 @@
 cv:
   name: Jiajin Zhang
   label: Reinforcement Learning Researcher
-  email: jiajinzh@usc.edu
+  email: jjzh0103@gmail.com
   location: Los Angeles, CA
   image: ""
   summary: Reinforcement learning researcher specializing in robotic locomotion, morphology-control co-optimization, and game AI. MS in Computer Engineering from USC.
@@ -13,7 +13,7 @@ cv:
       username: jiajinzhang
 
   address:
-    street: Los Angeles
+    street:
     city: Los Angeles
     region: California
     postalCode: "90007"
@@ -49,7 +49,7 @@ cv:
         position: Research Assistant
         location: Los Angeles, CA
         start_date: 2025-09
-        end_date: 2025-12
+        end_date: 2026-12
         summary: Research on RL-based robotic control and morphology co-design.
         highlights:
           - Formulated nested optimization framework integrating inner-loop RL with outer-loop black-box optimization (GA, PSO) for morphology co-design.
