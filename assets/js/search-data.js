@@ -455,12 +455,12 @@ ninja.data = [{
           title: 'Game AI — Street Fighter II',
           description: "PPO-based RL agent achieving 96% win rate",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+              window.location.href = "/al-folio/projects/1_street_fighter/";
+            },},{id: "projects-parallelized-q-learning-amp-dqn",
+          title: 'Parallelized Q-Learning &amp;amp; DQN',
+          description: "Parallel reinforcement learning with lock-free and CUDA-accelerated replay buffers achieving 3× training speedup",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/2_project/";
+              window.location.href = "/al-folio/projects/2_dqn_parallel/";
             },},{id: "projects-project-3-with-very-long-name",
           title: 'project 3 with very long name',
           description: "a project that redirects to another website",
